@@ -11,3 +11,44 @@
  *= require_self
  *= require_tree .
  */
+
+.splash img { height: 400px; }
+.splash { text-align: center }
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-weight: normal;
+  color: #999;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#logo:hover {
+  text-decoration: none;
+}
