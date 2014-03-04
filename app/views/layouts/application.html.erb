@@ -8,30 +8,13 @@
 </head>
 <body>
 
-	<header class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<%= link_to "The Contact Exchange", '#', id: "logo" %>
-			</div>
-		</div>
-	</header>
+	<%= render 'layouts/header' %>
 
 	<div class="container">
 		<%= yield %>
 	</div>
 
-	<div class="container">
-		<footer class="footer">
-		  <small>
-		     © 2014 
-		  </small>
-		  <nav class="pull-right">
-		    <%= link_to "About",   '#' %>
-		    <%= link_to "Contact", '#' %>
-		    <%= link_to "Etc", '#' %>
-		  </nav>
-		</footer>
-	</div>
+	<%= render 'layouts/footer' %>
 
 
 
